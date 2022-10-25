@@ -15,7 +15,7 @@ function calculaCO(h, ca){
 
 }
 
-function calculaRegra(h, ca, co){
+function calculaPitagoras(h, ca, co){
     if (h == 0)
     {
         return calculaH(ca, co);
@@ -33,12 +33,15 @@ function calculaRegra(h, ca, co){
     }
 }
 
-console.log(calculaRegra(0, 20, 21));
-console.log(calculaRegra(13, 5, 0));
-console.log(calculaRegra(10, 0, 6));
 
+function abastecePitagoras() {
+    let h = document.getElementById("h").value;
+    let ca = document.getElementById("ca").value;
+    let co = document.getElementById("co").value;
 
-
+    console.log(calculaPitagoras(h, ca, co));
+    document.getElementById("resultado").innerHTML=calculaPitagoras(h,ca, co);
+}
 
 
 
