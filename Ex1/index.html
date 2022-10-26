@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>FirstDialog | SAC Automate</title>
+</head>
+
+<body>
+    <header></header>
+    <main>
+        <p>
+            <label for="h">H: </label>
+            <input type="text" id="h" />
+        </p>
+        <p>
+            <label for="ca">CA: </label>
+            <input type="text" id="ca" />
+        </p>
+        <p>
+            <label for="co">CO: </label>
+            <input type="text" id="co" />
+        </p>
+        <hr>
+        <p>
+            Resultado: <span id="resultado"></span>
+        </p>
+        <p>
+            <button id="calcula" onclick="abastecePitagoras()">Calcular</button>
+        </p>
+    </main>
+    <footer>
+        <script src="./src/index.js"></script>
+    </footer>
+</body>
+
+</html> 
