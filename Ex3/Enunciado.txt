@@ -1,0 +1,5 @@
+Execercício de Javascript
+
+1) Monte a abstração lógica de como funciona o calculo do triângulo de pitágoras.
+2) Com base neste sistema de funcionamento monte um fluxograma da execução deste sistema.
+3) Agora com base no fluxograma use seus conhecimentos para montar um código Javascript para calcular no console ou o ca, co e h.
